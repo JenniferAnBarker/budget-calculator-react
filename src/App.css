@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 :root {
-  --primaryColor: #f15025;
+  --primaryColor: #e5a089;
   --mainWhite: #fff;
   --mainBlack: #222;
-  --mainGrey: #9e9e9e;
-  --mainRed: #d50000;
-  --mainGreen: #4caf50;
+  --mainGrey: #e5ce89;
+  --mainRed: #950000;
+  --mainGreen: #93cf96;
 }
 * {
   margin: 0;
@@ -21,7 +21,7 @@ h1 {
   text-transform: capitalize;
   margin: 2rem 0;
   color: var(--mainWhite);
-  letter-spacing: 5px;
+  letter-spacing: 3.5px;
 }
 .App {
   margin: 0 auto;
@@ -29,7 +29,7 @@ h1 {
   width: 90%;
   background: var(--mainWhite);
   padding-bottom: 2rem;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 .form-center {
   display: flex;
@@ -67,7 +67,7 @@ label {
   font-size: 14px;
   outline: 0;
   border: none;
-  border-radius: 2px;
+  border-radius: 7px;
   display: block;
   height: 36px;
   line-height: 36px;
@@ -121,7 +121,7 @@ label {
   font-size: 1rem;
   color: var(--mainWhite);
   background-color: var(--primaryColor);
-  border-radius: 2px;
+  border-radius: 5px;
   padding: 1px 3px;
 }
 .clear-btn,
@@ -142,7 +142,7 @@ label {
   font-weight: 300;
   color: var(--mainWhite);
   background-color: var(--primaryColor);
-  border-radius: 2px;
+  border-radius: 7px;
   padding: 2px 5px;
 }
 .alert {
@@ -152,7 +152,7 @@ label {
   text-transform: capitalize;
   width: 90%;
   margin: 2rem auto 0 auto;
-  border-radius: 2px;
+  border-radius: 7px;
   text-transform: capitalize;
 }
 .alert-danger {
