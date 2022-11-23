@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 :root {
-  --primaryColor: #e5a089;
-  --mainWhite: #fff;
+  --primaryColor: #0c4b33;
+  --mainWhite: #e9f5f3;
   --mainBlack: #222;
-  --mainGrey: #e5ce89;
+  --mainGrey: #2a9d8f;
   --mainRed: #950000;
-  --mainGreen: #93cf96;
+  --mainGreen: #5eb763;
 }
+/* --mainGrey: #e5ce89; */
+/* --primaryColor: #e5a089; */
 * {
   margin: 0;
   box-sizing: border-box;
